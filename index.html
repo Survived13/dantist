@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/png" href="img/favicon.png">
+	<link rel="stylesheet" href="css/style.min.css?_v=20241121142149">
+	<title>Дантист</title>
+</head>
+
+<body>
+	<header class="header fix-block">
+	<div class="header__container container">
+		<a href="../index.html" class="header__logo">
+			<img src="img/header-logo.svg" alt="Логотип">
+		</a>
+		<div class="header__menu menu">
+			<div class="menu__icon">
+				<span></span>
+			</div>
+			<nav class="menu__body">
+				<ul class="menu__list">
+					<li class="menu__item">
+						<a href="../services.html" class="menu__link">Услуги и цены</a>
+					</li>
+					<li class="menu__item">
+						<a href="../employees.html" class="menu__link">Сотрудники</a>
+					</li>
+					<li class="menu__item">
+						<a href="../certificates.html" class="menu__link">Сертификаты</a>
+					</li>
+					<li class="menu__item">
+						<a href="../about.html" class="menu__link">О компании</a>
+					</li>
+					<li class="menu__item">
+						<a href="../contacts.html" class="menu__link">Контакты</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+		<a href="tel:+73522541741" class="header__phone">+7 (3522) 541-741</a>
+	</div>
+</header>
+	<main>
+		<section class="home-hero">
+			<div class="home-hero__container container">
+				<div class="home-hero__content content-hero">
+					<h1 class="content-hero__title">Стоматология</h1>
+					<p class="content-hero__text">За это время клиника сумела прочно укорениться на рынке, завоевать
+						по-настоящему серьезный авторитет в сфере своей деятельности. «Дантист»</p>
+					<a href="#" class="content-hero__btn btn scroll-link" data-goto=".home-price">Услуги и цены<img
+							src="img/icons/arrow-down.svg" alt="Стрелка вниз"></a>
+				</div>
+				<form action="#" class="hero__form form-hero">
+					<h3 class="form-hero__title">Записаться на прием</h3>
+					<input class="form-hero__input form-input phone-mask" type="tel" placeholder="Ваш телефон"
+						autocomplete="off"></input>
+					<div class="form-hero__select form-select dropdown">
+						<button class="form-hero__input dropdown__btn form-input">Осмотр</button>
+						<ul class="dropdown__list form-hero__input form-input">
+							<li class="dropdown__item" data-value="inspection">Осмотр</li>
+							<li class="dropdown__item" data-value="anesthesia">Аппликационная анастезия</li>
+							<li class="dropdown__item" data-value="middleCaries">Лечение среднего кариеса</li>
+							<li class="dropdown__item" data-value="deepCaries">Лечение глубокого кариеса</li>
+						</ul>
+						<input class="form-hero__input form-input dropdown__input-hidden" type="text"
+							name="select-category" value=""></input>
+					</div>
+					<button class="form-hero__btn btn" type="submit">Записаться</button>
+					<div class="form-hero__sucess sucess-form">
+						<p class="sucess-form__text">Мы позвоним вам в течении пары часов</p>
+						<img src="img/icons/smile.svg" alt="Смайлик" class="sucess-form__img">
+					</div>
+				</form>
+			</div>
+		</section>
+		<section class="advantages">
+			<div class="advantages__container container">
+				<h2 class="advantages__title section-title">Преимущества <span>клиники</span></h2>
+				<div class="advantages__items">
+					<div class="advantages__item item-advantages">
+						<div class="item-advantages__decor">
+							<div class="item-advantages__decor--circle-small circle-small"></div>
+							<div class="item-advantages__decor--circle-big circle-big"></div>
+							<picture><source srcset="img/decor/tooth-enamel.webp" type="image/webp"><img src="img/decor/tooth-enamel.png" alt="Зуб со щитом" class="item-advantages__img"></picture>
+						</div>
+						<h3 class="item-advantages__title">Безопасность и лечение по европейским стандартам</h3>
+						<p class="item-advantages__text">Мы собрали лучших специалистов в одном месте. Каждый из наших
+							врачей – мастер своего дела</p>
+					</div>
+					<div class="advantages__item item-advantages">
+						<div class="item-advantages__decor">
+							<div class="item-advantages__decor--circle-small circle-small"></div>
+							<div class="item-advantages__decor--circle-big circle-big"></div>
+							<picture><source srcset="img/decor/tooth-and-tools.webp" type="image/webp"><img src="img/decor/tooth-and-tools.png" alt="Имплант" class="item-advantages__img"></picture>
+						</div>
+						<h3 class="item-advantages__title">Современные технологии и качественные материалы</h3>
+						<p class="item-advantages__text">Мы собрали лучших специалистов в одном месте. Каждый из наших
+							врачей – мастер своего дела </p>
+					</div>
+					<div class="advantages__item item-advantages">
+						<div class="item-advantages__decor">
+							<div class="item-advantages__decor--circle-small circle-small"></div>
+							<div class="item-advantages__decor--circle-big circle-big"></div>
+							<img src="img/decor/tooth-implant.png" alt="Зуб с инструментами"
+								class="item-advantages__img">
+						</div>
+						<h3 class="item-advantages__title">Индивидуальный подход и комфортное лечение</h3>
+						<p class="item-advantages__text">Мы собрали лучших специалистов в одном месте. Каждый из наших
+							врачей – мастер своего дела</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="team">
+			<div class="team__container container">
+				<h2 class="team__title section-title">Команда ответственных <span>профессионалов</span></h2>
+				<div class="team__items">
+					<div class="team__item item-team">
+						<div class="item-team__photo content-image">
+							<picture><source srcset="img/content/kazancev-small.webp" type="image/webp"><img src="img/content/kazancev-small.jpg" alt="Казанцев О.А."></picture>
+						</div>
+						<h3 class="item-team__title">Казанцев Олег Александрович</h3>
+						<p class="item-team__subtitle">Стоматолог-ортопед, стоматолог-терапевт, зубной техник</p>
+						<p class="item-team__text">Эндодонтическое лечение зубов – развитое направление стоматологии,
+							которое занимается терапией заболеваний пульпы и тканей периодонта. Эндодонтическая терапия
+							(лечение корневых каналов)</p>
+						<a href="employees.html#kazancev" class="item-team__btn btn-more">Подробнее</a>
+					</div>
+					<div class="team__item item-team">
+						<div class="item-team__photo content-image">
+							<picture><source srcset="img/content/kolomin-small.webp" type="image/webp"><img src="img/content/kolomin-small.jpg" alt="Коломин В.С."></picture>
+						</div>
+						<h3 class="item-team__title">Коломин Владимир Сергеевич</h3>
+						<p class="item-team__subtitle">Стоматолог-ортопед,
+							хирург-имплантолог</p>
+						<p class="item-team__text">Эндодонтическое лечение зубов – развитое направление стоматологии,
+							которое занимается терапией заболеваний пульпы и тканей периодонта. Эндодонтическая терапия
+							(лечение корневых каналов)</p>
+						<a href="employees.html#kolomin" class="item-team__btn btn-more">Подробнее</a>
+					</div>
+					<div class="team__item item-team">
+						<div class="item-team__photo content-image">
+							<picture><source srcset="img/content/lukyancev-small.webp" type="image/webp"><img src="img/content/lukyancev-small.jpg" alt="Лукьянцев П.В."></picture>
+						</div>
+						<h3 class="item-team__title">Лукъянцев Павел Владимирович</h3>
+						<p class="item-team__subtitle">Стоматолог-хирург</p>
+						<p class="item-team__text">Эндодонтическое лечение зубов – развитое направление стоматологии,
+							которое занимается терапией заболеваний пульпы и тканей периодонта. Эндодонтическая терапия
+							(лечение корневых каналов)</p>
+						<a href="employees.html#lukyancev" class="item-team__btn btn-more">Подробнее</a>
+					</div>
+				</div>
+				<a href="employees.html" class="team__btn btn-all">Смотреть всех</a>
+			</div>
+		</section>
+		<section class="best">
+			<div class="best__decor">
+				<picture><source srcset="img/decor/tools.webp" type="image/webp"><img src="img/decor/tools.png" alt="Инструменты"></picture>
+			</div>
+			<div class="best__container container">
+				<h2 class="best__title section-title">Лучшая <span>стоматология</span></h2>
+				<div class="best__laboratory laboratory-best">
+					<div class="laboratory-best__gallery gallery-laboratory">
+						<div class="gallery-laboratory__photo gallery-laboratory__photo--big content-image">
+							<picture><source srcset="img/content/laboratory-1.webp" type="image/webp"><img src="img/content/laboratory-1.jpg" alt="Лаборатория"></picture>
+						</div>
+						<div class="gallery-laboratory__photo content-image">
+							<picture><source srcset="img/content/laboratory-2.webp" type="image/webp"><img src="img/content/laboratory-2.jpg" alt="Лаборатория"></picture>
+						</div>
+						<div class="gallery-laboratory__photo content-image">
+							<picture><source srcset="img/content/laboratory-3.webp" type="image/webp"><img src="img/content/laboratory-3.jpg" alt="Лаборатория"></picture>
+						</div>
+					</div>
+					<div class="laboratory-best__content">
+						<h3 class="laboratory-best__title">Своя лаборатория</h3>
+						<div class="laboratory-best__text">
+							<p>«Дантист» — одна из прогрессивных зуботехнических лабораторий. Специализируемся на
+								изготовлении и ремонте всех видов зубных протезов. А также мы проводим курсы
+								повышения квалификации зубных техников России. </p>
+							<p>Изготовление зубных протезов требует высокого профессионализма. Поэтому, сотрудники
+								нашей литейной лаборатории регулярно проходят курсы повышения квалификации, обладают
+								ценными знаниями и практическим опытом в изготовлении и ремонте зубных протезов.</p>
+							<p>Изготовление зубных протезов в нашей лаборатории производится под заказ, с учетом
+								пожеланий и особенностей пациента.</p>
+							<p>В лаборатории используются сверхсовременное оборудование и материалы.</p>
+						</div>
+					</div>
+				</div>
+				<div class="best__tomography tomography-best">
+					<div class="tomography-best__content">
+						<h3 class="tomography-best__title">Компьютерная томография</h3>
+						<p class="tomography-best__subtitle">Planmeca ProMax 3D Mid и Gendex CB-500</p>
+						<div class="tomography-best__text">
+							<p>Конусно-лучевая компьютерная томография (КЛКТ) – это рентгеновский метод исследования
+								(разновидность компьютерной томографии), который позволяет получить трехмерное
+								изображение обследуемого объекта.</p>
+							<p>Данные компьютерной томографии позволяют поставить точный диагноз и составить
+								индивидуальный план лечения стоматологам всех специальностей, ЛОР-врачам и
+								челюстно-лицевым хирургам.</p>
+							<p>Программное обеспечение конусно-лучевого компьютерного томографа позволяет сделать
+								необходимые точные замеры параметров. Например, виртуальная установка имплантов на
+								3d модели по параметрам пациента позволяет индивидуально подобрать импланты,
+								используя базу данных имплантов в программе, и спланировать ход операции.</p>
+						</div>
+						<a href="#" class="tomography-best__btn btn-more">Подробнее</a>
+					</div>
+					<div class="tomography-best__gallery gallery-tomography">
+						<div class="gallery-tomography__photo gallery-tomography__photo--back content-image">
+							<picture><source srcset="img/content/tomography-1.webp" type="image/webp"><img src="img/content/tomography-1.jpg" alt="Томография"></picture>
+						</div>
+						<div class="gallery-tomography__photo gallery-tomography__photo--front content-image">
+							<picture><source srcset="img/content/tomography-2.webp" type="image/webp"><img src="img/content/tomography-2.jpg" alt="Томография"></picture>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="home-price">
+			<div class="home-price__container container">
+				<h2 class="home-price__title section-title">Услуги <span>и цены</span></h2>
+				<div class="home-price__content content-price-home content-price">
+					<div class="content-price-home__decor content-price__decor">
+						<div class="content-price-home__decor--circle-small circle-small"></div>
+						<div class="content-price-home__decor--circle-big circle-big"></div>
+						<picture><source srcset="img/decor/tools-drills.webp" type="image/webp"><img src="img/decor/tools-drills.png" alt="Инструменты" class="content-price-home__img"></picture>
+					</div>
+					<div class="content-price-home__title content-price__title">
+						<h4 class="content-price-home__title-item">Наименование услуги</h4>
+						<h4 class="content-price-home__title-item">Цена</h4>
+					</div>
+					<ul class="content-price-home__list list-price-home list-price">
+						<li class="list-price-home__item list-price__item">
+							<div class="list-price-home__item-name">Осмотр, консультация</div>
+							<div class="list-price-home__item-value">300 ₽</div>
+						</li>
+						<li class="list-price-home__item list-price__item">
+							<div class="list-price-home__item-name">Аппликационная анастезия</div>
+							<div class="list-price-home__item-value">250 ₽</div>
+						</li>
+						<li class="list-price-home__item list-price__item">
+							<div class="list-price-home__item-name">Лечение среднего кариеса</div>
+							<div class="list-price-home__item-value">1 950 ₽</div>
+						</li>
+						<li class="list-price-home__item list-price__item">
+							<div class="list-price-home__item-name">Лечение глубокого кариеса</div>
+							<div class="list-price-home__item-value">2 500 ₽</div>
+						</li>
+						<li class="list-price-home__item list-price__item">
+							<div class="list-price-home__item-name">Осмотр, консультация</div>
+							<div class="list-price-home__item-value">3 000 ₽</div>
+						</li>
+					</ul>
+				</div>
+				<a href="services.html#price" class="home-price__btn btn-all">Смотреть все</a>
+			</div>
+		</section>
+		<section class="reviews">
+			<div class="reviews__container container">
+				<div class="reviews__decor">
+					<picture><source srcset="img/decor/tooth-and-mirror.webp" type="image/webp"><img src="img/decor/tooth-and-mirror.png" alt="Зуб с заркальцем"></picture>
+				</div>
+				<div class="reviews__title section-title">Что о нас <span>говорят</span></div>
+				<div class="reviews__slider slider-reviews swiper">
+					<div class="slider-reviews__wrapper swiper-wrapper">
+						<div class="slider-reviews__slide slide-reviews swiper-slide">
+							<div class="slide-reviews__photo">
+								<picture><source srcset="img/content/kuznecova.webp" type="image/webp"><img src="img/content/kuznecova.jpg" alt="Фото пациента"></picture>
+							</div>
+							<div class="slide-reviews__content">
+								<h4 class="slide-reviews__title">Кузнецова Светлана</h4>
+								<div class="slide-reviews__rating">
+									<div class="slide-reviews__rating-item">★</div>
+									<div class="slide-reviews__rating-item">★</div>
+									<div class="slide-reviews__rating-item">★</div>
+									<div class="slide-reviews__rating-item">★</div>
+									<div class="slide-reviews__rating-item slide-reviews__rating-item--gray">★</div>
+								</div>
+								<p class="slide-reviews__text">Быстро Попала на прием. Единственная стоматология где
+									есть флюориестцентная лампа для выявления патологий. Врач вежливый, грамотный и
+									человечный</p>
+							</div>
+						</div>
+						<div class="slider-reviews__slide slide-reviews swiper-slide">
+							<div class="slide-reviews__photo">
+								<img src="img/icons/patient.svg" alt="Фото пациента">
+							</div>
+							<div class="slide-reviews__content">
+								<h4 class="slide-reviews__title">Филипп Киркоров</h4>
+								<div class="slide-reviews__rating">
+									<div class="slide-reviews__rating-item">★</div>
+									<div class="slide-reviews__rating-item">★</div>
+									<div class="slide-reviews__rating-item">★</div>
+									<div class="slide-reviews__rating-item">★</div>
+									<div class="slide-reviews__rating-item">★</div>
+								</div>
+								<p class="slide-reviews__text">Вилаят и Группа 9 - для игрока всегда являются врагами и
+									с ними никак нельзя особым образом взаимодействовать. На экране Вилаят можно будет
+									посмотреть о том какая сейчас глобальная сила и тревога по миру, почитать факты о
+									ней...</p>
+							</div>
+						</div>
+						<div class="slider-reviews__slide slide-reviews swiper-slide">
+							<div class="slide-reviews__photo">
+								<picture><source srcset="img/content/kuznecova.webp" type="image/webp"><img src="img/content/kuznecova.jpg" alt="Фото пациента"></picture>
+							</div>
+							<div class="slide-reviews__content">
+								<h4 class="slide-reviews__title">Кузнецова Светлана</h4>
+								<div class="slide-reviews__rating">
+									<div class="slide-reviews__rating-item">★</div>
+									<div class="slide-reviews__rating-item">★</div>
+									<div class="slide-reviews__rating-item">★</div>
+									<div class="slide-reviews__rating-item">★</div>
+									<div class="slide-reviews__rating-item slide-reviews__rating-item--gray">★</div>
+								</div>
+								<p class="slide-reviews__text">Быстро Попала на прием. Единственная стоматология где
+									есть флюориестцентная лампа для выявления патологий. Врач вежливый, грамотный и
+									человечный</p>
+							</div>
+						</div>
+						<div class="slider-reviews__slide slide-reviews swiper-slide">
+							<div class="slide-reviews__photo">
+								<img src="img/icons/patient.svg" alt="Фото пациента">
+							</div>
+							<div class="slide-reviews__content">
+								<h4 class="slide-reviews__title">Филипп Киркоров</h4>
+								<div class="slide-reviews__rating">
+									<div class="slide-reviews__rating-item">★</div>
+									<div class="slide-reviews__rating-item">★</div>
+									<div class="slide-reviews__rating-item">★</div>
+									<div class="slide-reviews__rating-item">★</div>
+									<div class="slide-reviews__rating-item">★</div>
+								</div>
+								<p class="slide-reviews__text">Вилаят и Группа 9 - для игрока всегда являются врагами и
+									с ними никак нельзя особым образом взаимодействовать. На экране Вилаят можно будет
+									посмотреть о том какая сейчас глобальная сила и тревога по миру, почитать факты о
+									ней...</p>
+							</div>
+						</div>
+						<div class="slider-reviews__slide slide-reviews swiper-slide">
+							<div class="slide-reviews__photo">
+								<picture><source srcset="img/content/kuznecova.webp" type="image/webp"><img src="img/content/kuznecova.jpg" alt="Фото пациента"></picture>
+							</div>
+							<div class="slide-reviews__content">
+								<h4 class="slide-reviews__title">Кузнецова Светлана</h4>
+								<div class="slide-reviews__rating">
+									<div class="slide-reviews__rating-item">★</div>
+									<div class="slide-reviews__rating-item">★</div>
+									<div class="slide-reviews__rating-item">★</div>
+									<div class="slide-reviews__rating-item">★</div>
+									<div class="slide-reviews__rating-item slide-reviews__rating-item--gray">★</div>
+								</div>
+								<p class="slide-reviews__text">Быстро Попала на прием. Единственная стоматология где
+									есть флюориестцентная лампа для выявления патологий. Врач вежливый, грамотный и
+									человечный</p>
+							</div>
+						</div>
+						<div class="slider-reviews__slide slide-reviews swiper-slide">
+							<div class="slide-reviews__photo">
+								<img src="img/icons/patient.svg" alt="Фото пациента">
+							</div>
+							<div class="slide-reviews__content">
+								<h4 class="slide-reviews__title">Филипп Киркоров</h4>
+								<div class="slide-reviews__rating">
+									<div class="slide-reviews__rating-item">★</div>
+									<div class="slide-reviews__rating-item">★</div>
+									<div class="slide-reviews__rating-item">★</div>
+									<div class="slide-reviews__rating-item">★</div>
+									<div class="slide-reviews__rating-item">★</div>
+								</div>
+								<p class="slide-reviews__text">Вилаят и Группа 9 - для игрока всегда являются врагами и
+									с ними никак нельзя особым образом взаимодействовать. На экране Вилаят можно будет
+									посмотреть о том какая сейчас глобальная сила и тревога по миру, почитать факты о
+									ней...</p>
+							</div>
+						</div>
+						<div class="slider-reviews__slide slide-reviews swiper-slide">
+							<div class="slide-reviews__photo">
+								<picture><source srcset="img/content/kuznecova.webp" type="image/webp"><img src="img/content/kuznecova.jpg" alt="Фото пациента"></picture>
+							</div>
+							<div class="slide-reviews__content">
+								<h4 class="slide-reviews__title">Кузнецова Светлана</h4>
+								<div class="slide-reviews__rating">
+									<div class="slide-reviews__rating-item">★</div>
+									<div class="slide-reviews__rating-item">★</div>
+									<div class="slide-reviews__rating-item">★</div>
+									<div class="slide-reviews__rating-item">★</div>
+									<div class="slide-reviews__rating-item slide-reviews__rating-item--gray">★</div>
+								</div>
+								<p class="slide-reviews__text">Быстро Попала на прием. Единственная стоматология где
+									есть флюориестцентная лампа для выявления патологий. Врач вежливый, грамотный и
+									человечный</p>
+							</div>
+						</div>
+
+					</div>
+					<div class="slider-reviews__navigations">
+						<div class="slider-reviews__buttons">
+							<div class="slider-reviews__button-prev">
+								<svg width="15" height="26" viewbox="0 0 15 26" fill="currentColor"
+									xmlns="http://www.w3.org/2000/svg">
+									<path fill-rule="evenodd" clip-rule="evenodd"
+										d="M14.4146 0.918794C15.1956 1.69984 15.1956 2.96617 14.4146 3.74722L5.16211 12.9997L14.4146 22.2521C15.1956 23.0332 15.1956 24.2995 14.4146 25.0806C13.6335 25.8616 12.3672 25.8616 11.5861 25.0806L0.919466 14.4139C0.138417 13.6328 0.138417 12.3665 0.919466 11.5855L11.5861 0.918794C12.3672 0.137746 13.6335 0.137746 14.4146 0.918794Z" />
+								</svg>
+							</div>
+							<div class="slider-reviews__button-next">
+								<svg width="15" height="26" viewbox="0 0 15 26" fill="currentColor"
+									xmlns="http://www.w3.org/2000/svg">
+									<path fill-rule="evenodd" clip-rule="evenodd"
+										d="M0.585472 0.918794C-0.195577 1.69984 -0.195577 2.96617 0.585472 3.74722L9.83792 12.9997L0.585472 22.2521C-0.195577 23.0332 -0.195577 24.2995 0.585472 25.0806C1.36652 25.8616 2.63285 25.8616 3.4139 25.0806L14.0806 14.4139C14.8616 13.6328 14.8616 12.3665 14.0806 11.5855L3.4139 0.918794C2.63285 0.137746 1.36652 0.137746 0.585472 0.918794Z" />
+								</svg>
+							</div>
+						</div>
+						<div class="slider-reviews__pagination"></div>
+						<div class="slider-reviews__btn">
+							<a href="#" class="btn-all">Смотреть все</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<div class="reception">
+			<div class="reception__container container">
+				<div class="reception__img">
+					<picture><source srcset="img/content/woman-with-document.webp" type="image/webp"><img src="img/content/woman-with-document.jpg" alt="Доктор с планшетом"></picture>
+				</div>
+				<form action="#" class="reception__form form-reception">
+					<div class="form-reception__wrapper">
+						<h3 class="form-reception__title">Записаться на прием</h3>
+						<input class="form-reception__input form-input phone-mask" type="tel" placeholder="Ваш телефон"
+							autocomplete="off"></input>
+						<div class="form-reception__select form-select dropdown">
+							<button class="form-reception__input dropdown__btn form-input">Осмотр</button>
+							<ul class="dropdown__list form-reception__input form-input">
+								<li class="dropdown__item" data-value="inspection">Осмотр</li>
+								<li class="dropdown__item" data-value="anesthesia">Аппликационная анастезия</li>
+								<li class="dropdown__item" data-value="middleCaries">Лечение среднего кариеса</li>
+								<li class="dropdown__item" data-value="deepCaries">Лечение глубокого кариеса</li>
+							</ul>
+							<input class="form-reception__input form-input dropdown__input-hidden" type="text"
+								name="select-category" value=""></input>
+						</div>
+						<button class="form-reception__btn btn" type="submit">Записаться</button>
+					</div>
+				</form>
+			</div>
+		</div>
+		<div class="contacts">
+			<div class="contacts__map" id="map">
+				<script
+					src="https://api-maps.yandex.ru/2.1/?apikey=de42dc1c-c4cc-4486-9e74-1c1a55b67a3d&max-width=100%%&max-height=100%&lang=ru_RU">
+					</script>
+			</div>
+			<div class="contacts__container container">
+				<div class="contacts__content content-contacts">
+					<h5 class="content-contacts__title">Адрес:</h5>
+					<p class="content-contacts__description">г. Курган, Заозерный, 2 микрорайон, д. 9</p>
+					<h5 class="content-contacts__title">Телефоны:</h5>
+					<p class="content-contacts__description content-contacts__description--phones">
+						<a href="tel:+73522541741">+7 (3522) 541-741</a>
+						<a href="tel:+73522541741">+7 (902) 592 0000</a>
+					</p>
+					<h5 class="content-contacts__title">Электронная почта:</h5>
+					<p class="content-contacts__description content-contacts__description--email">
+						<a href="mailto:dantistkurgan@yandex.ru">dantistkurgan@yandex.ru</a>
+					</p>
+					<h5 class="content-contacts__title">Часы работы:</h5>
+					<p class="content-contacts__description">пн - пт: 9:00 — 19:00</p>
+					<p class="content-contacts__description">сб: 9:00 — 14:00</p>
+				</div>
+			</div>
+		</div>
+	</main>
+	<footer class="footer">
+	<div class="footer__container container">
+		<p class="footer__text">Данный сайт носит исключительно информационный характер и предназначен для
+			образовательных целей, посетители сайта не должны использовать материалы, размещенные на сайте, в
+			качестве медицинских рекомендаций. Стоматология «Дантист» в лице сотрудников и руководителей не несут
+			ответственности за возможные последствия, возникшие в результате использования информации, размещенной
+			на сайте. Материалы и цены, размещенные на сайте, не являются публичной офертой, определяемой
+			положениями статьи 437 Гражданского кодекса Российской Федерации. Предоставление услуг осуществляется на
+			основании договора об оказании медицинских услуг. Просьба перед получением услуги уточнять цены у
+			ответственных сотрудников стоматологии «Дантист».</p>
+		<div class="footer__bottom">
+			<a href="../index.html" class="footer__logo">
+				<img src="img/footer-logo.svg" alt="Логотип">
+			</a>
+			<p class="footer__copyright">Стоматология “ДАНТИСТ” 2023. Все права защищены.</p>
+			<a href="tel:+73522541741" class="footer__phone">+7 (3522) 541-741</a>
+		</div>
+	</div>
+</footer>
+	<script src="js/app.min.js?_v=20241121142149"></script>
+</body>
+
+</html>

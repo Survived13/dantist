@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/png" href="img/favicon.png">
+	<link rel="stylesheet" href="css/style.min.css?_v=20241121142149">
+	<title>Контакты</title>
+</head>
+
+<body>
+	<header class="header fix-block">
+	<div class="header__container container">
+		<a href="../index.html" class="header__logo">
+			<img src="img/header-logo.svg" alt="Логотип">
+		</a>
+		<div class="header__menu menu">
+			<div class="menu__icon">
+				<span></span>
+			</div>
+			<nav class="menu__body">
+				<ul class="menu__list">
+					<li class="menu__item">
+						<a href="../services.html" class="menu__link">Услуги и цены</a>
+					</li>
+					<li class="menu__item">
+						<a href="../employees.html" class="menu__link">Сотрудники</a>
+					</li>
+					<li class="menu__item">
+						<a href="../certificates.html" class="menu__link">Сертификаты</a>
+					</li>
+					<li class="menu__item">
+						<a href="../about.html" class="menu__link">О компании</a>
+					</li>
+					<li class="menu__item">
+						<a href="../contacts.html" class="menu__link">Контакты</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+		<a href="tel:+73522541741" class="header__phone">+7 (3522) 541-741</a>
+	</div>
+</header>
+	<main>
+		<section class="contacts-hero hero">
+			<div class="contacts-hero__container container">
+				<ul class="contacts-hero__breadcrumps breadcrumps">
+					<li class="breadcrumps__item">
+						<a href="index.html">Главная</a>
+					</li>
+					<li class="breadcrumps__item">Контакты</li>
+				</ul>
+				<h1 class="contacts-hero__title hero__title">Контакты</h1>
+			</div>
+		</section>
+		<div class="contacts contacts-page">
+			<div class="contacts__container contacts-page__container container">
+				<div class="contacts__map contacts-page__map" id="map">
+					<script
+						src="https://api-maps.yandex.ru/2.1/?apikey=de42dc1c-c4cc-4486-9e74-1c1a55b67a3d&max-width=100%%&max-height=100%&lang=ru_RU">
+						</script>
+				</div>
+				<div class="contacts__content content-contacts contacts-page__content">
+					<h5 class="content-contacts__title">Адрес:</h5>
+					<p class="content-contacts__description">г. Курган, Заозерный, 2 микрорайон, д. 9</p>
+					<h5 class="content-contacts__title">Телефоны:</h5>
+					<p class="content-contacts__description content-contacts__description--phones">
+						<a href="tel:+73522541741">+7 (3522) 541-741</a>
+						<a href="tel:+73522541741">+7 (902) 592 0000</a>
+					</p>
+					<h5 class="content-contacts__title">Электронная почта:</h5>
+					<p class="content-contacts__description content-contacts__description--email">
+						<a href="mailto:dantistkurgan@yandex.ru">dantistkurgan@yandex.ru</a>
+					</p>
+					<h5 class="content-contacts__title">Часы работы:</h5>
+					<p class="content-contacts__description">пн - пт: 9:00 — 19:00</p>
+					<p class="content-contacts__description">сб: 9:00 — 14:00</p>
+				</div>
+			</div>
+		</div>
+		<div class="reception">
+			<div class="reception__container container">
+				<div class="reception__img">
+					<picture><source srcset="img/content/woman-with-document.webp" type="image/webp"><img src="img/content/woman-with-document.jpg" alt="Доктор с планшетом"></picture>
+				</div>
+				<form action="#" class="reception__form form-reception">
+					<div class="form-reception__wrapper">
+						<h3 class="form-reception__title">Записаться на прием</h3>
+						<input class="form-reception__input form-input phone-mask" type="tel" placeholder="Ваш телефон"
+							autocomplete="off"></input>
+						<div class="form-reception__select form-select dropdown">
+							<button class="form-reception__input dropdown__btn form-input">Осмотр</button>
+							<ul class="dropdown__list form-reception__input form-input">
+								<li class="dropdown__item" data-value="inspection">Осмотр</li>
+								<li class="dropdown__item" data-value="anesthesia">Аппликационная анастезия</li>
+								<li class="dropdown__item" data-value="middleCaries">Лечение среднего кариеса</li>
+								<li class="dropdown__item" data-value="deepCaries">Лечение глубокого кариеса</li>
+							</ul>
+							<input class="form-reception__input form-input dropdown__input-hidden" type="text"
+								name="select-category" value=""></input>
+						</div>
+						<button class="form-reception__btn btn" type="submit">Записаться</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</main>
+	<footer class="footer">
+	<div class="footer__container container">
+		<p class="footer__text">Данный сайт носит исключительно информационный характер и предназначен для
+			образовательных целей, посетители сайта не должны использовать материалы, размещенные на сайте, в
+			качестве медицинских рекомендаций. Стоматология «Дантист» в лице сотрудников и руководителей не несут
+			ответственности за возможные последствия, возникшие в результате использования информации, размещенной
+			на сайте. Материалы и цены, размещенные на сайте, не являются публичной офертой, определяемой
+			положениями статьи 437 Гражданского кодекса Российской Федерации. Предоставление услуг осуществляется на
+			основании договора об оказании медицинских услуг. Просьба перед получением услуги уточнять цены у
+			ответственных сотрудников стоматологии «Дантист».</p>
+		<div class="footer__bottom">
+			<a href="../index.html" class="footer__logo">
+				<img src="img/footer-logo.svg" alt="Логотип">
+			</a>
+			<p class="footer__copyright">Стоматология “ДАНТИСТ” 2023. Все права защищены.</p>
+			<a href="tel:+73522541741" class="footer__phone">+7 (3522) 541-741</a>
+		</div>
+	</div>
+</footer>
+	<script src="js/app.min.js?_v=20241121142149"></script>
+</body>
+
+</html>
